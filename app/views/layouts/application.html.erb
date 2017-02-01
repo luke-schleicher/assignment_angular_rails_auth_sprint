@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html>
+<html <%= content_for(:angular_app) %>>
   <head>
     <title>AssignmentAngularRailsAuthSprint</title>
     <%= csrf_meta_tags %>
 
 
-    <%= stylesheet_link_tag    'application', media: 'all' %>
+    <%= stylesheet_link_tag 'application', media: 'all' %>
     <%= javascript_include_tag 'application' %>
 
   </head>
